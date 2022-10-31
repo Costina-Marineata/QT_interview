@@ -37,3 +37,4 @@ IMPROVEMENTS:
 - testing pyramid should be followed for system integration tests, API testing and UI testing.
 - the team should take into consideration also creating unit tests on the development side 
 - if there is a need to run the test on different environments the project should support that (either all tests can run on all environments available or there could be a selection of tests for each environments )
+- db connection can be added to the automation project if the tests should have some impact on any tables in the data-base. This way we can check once more if the needed details were updated also in the db  
