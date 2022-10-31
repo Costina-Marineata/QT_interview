@@ -10,6 +10,7 @@ The most important flow (full e2e) is highlighted as CRITICAL and I added it as 
 
 
 After running the tests locally, the Allure report can be generated using the following command: allure generate --clean 
+
 After running the command an index.html file will be generated in the /allure-report folder locally. (I commited the /allure-report folder as an example)
 In the /allure-result folder there is a file where we can update the environment details we run the tests with. (that info will be displayed in the ENVIRONEMNTS section the the Allure reporting)
 
